@@ -7,7 +7,6 @@ const breedSelect = document.querySelector(".breed-select");
 const catInfo = document.querySelector(".cat-info");
 const showLoader = document.querySelector(".loader");
 const showError = document.querySelector(".error");
-console.log(showLoader)
 showError.style.visibility = "hidden";
 
 
