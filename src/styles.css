@@ -1,0 +1,68 @@
+img {
+    object-fit: cover;
+    height:800px;
+    width:700px;
+    max-height:100%;
+    max-width:100%;
+}
+
+select {
+    border: none;
+    width:300px;
+    height:50px;
+    padding-left: 15px;
+    font-size:18px;
+    background-color: black;
+    color:white;
+    border-radius:10px;
+}
+
+.error {
+    margin:0;
+    font-size:30px;
+    padding-top:20px;
+}
+
+.secondwrapper {
+    margin: 0;
+}
+
+.cat-info {
+    display:flex;
+    align-items: center;
+}
+
+.cat-info p {
+    font-size:40px;
+    margin: 0;
+    padding-left:100px;
+    width:800px;
+}
+
+.wrapper {
+    display:flex;
+    gap:50px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    animation: l2 2s linear infinite;
+    margin:0;
+    padding-top:5px;
+}
+
+.loader:before {
+    content: "Loading..."
+}
+
+@keyframes l2 {
+    to {
+        background-size: 100% 3px
+    }
+}
